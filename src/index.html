@@ -7,22 +7,14 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Product Card</title>
-    <!-- Fonte do Google -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <!-- Parcel compila SCSS -->
-
+    <!-- Parcel compila SCSS automaticamente -->
     <link
-      rel="stylesheet"
-      href="./styles/index.scss"
-    />
-
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1/>
-"
+      rel="@link"
+      href="./src/styles/index.scss"
     />
   </head>
   <body>
@@ -30,23 +22,18 @@
       class="card"
       data-qa="card"
     >
-      <img
-        class="card__image"
-        src="src/images/imac.png"
-        alt="Apple iMac 27'' Retina 5K"
-      />
+      <div class="card__image"></div>
       <p class="card__code">Product code: 195434</p>
       <h2 class="card__title">
         APPLE A1419 iMac 27'' Retina 5K Monoblock (MNED2UA/A)
       </h2>
       <div class="stars stars--5">
-        <div class="stars__item"></div>
-        <div class="stars__item"></div>
-        <div class="stars__item"></div>
-        <div class="stars__item"></div>
-        <div class="stars__item"></div>
+        <span class="stars__item"></span>
+        <span class="stars__item"></span>
+        <span class="stars__item"></span>
+        <span class="stars__item"></span>
+        <span class="stars__item"></span>
       </div>
-
       <p class="card__price">$2,199</p>
       <a
         href="#"
