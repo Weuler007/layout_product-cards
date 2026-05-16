@@ -6,10 +6,8 @@
     width: 16px;
     height: 16px;
     background: $gray-border;
-    mask: url('../images/star.svg') no-repeat center;
-    -webkit-mask: url('../images/star.svg') no-repeat center;
-    mask-size: contain;
-    -webkit-mask-size: contain;
+    -webkit-mask: url('../images/star.svg') no-repeat center / contain;
+    mask: url('../images/star.svg') no-repeat center / contain;
   }
 
   &--1 .stars__item:nth-child(1),
