@@ -1,0 +1,23 @@
+.stars {
+  display: flex;
+  gap: 4px;
+
+  &::before {
+    content: '★★★★★';
+    color: $gray-border;
+  }
+
+  &--5::before {
+    color: $yellow;
+  }
+
+  &--4::before {
+    content: '★★★★☆';
+    color: $yellow;
+  }
+
+  &--3::before {
+    content: '★★★☆☆';
+    color: $yellow;
+  }
+}
