@@ -21,10 +21,7 @@
   &__image {
     width: 160px;
     height: 134px;
-    .card__image {
-  background-image: url('../images/card.png');
-}
-
+    background-image: url('../images/card.png'); // ✅ corrigido
     background-size: cover;
     background-position: center;
     border-radius: 6px;
