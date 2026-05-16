@@ -2,34 +2,21 @@
   display: flex;
   gap: 4px;
 
-  &__item {
+  &__star {
     width: 16px;
     height: 16px;
     background: $gray-border;
     mask: url('../images/star.svg') no-repeat center;
-    -webkit-mask: url('../images/star.svg') no-repeat center; // compatibilidade
+    -webkit-mask: url('../images/star.svg') no-repeat center;
     mask-size: contain;
     -webkit-mask-size: contain;
   }
 
-  // Modificadores para pintar as primeiras N estrelas
-  &--1 .stars__item:nth-child(1) {
-    background: $yellow;
-  }
-
-  &--2 .stars__item:nth-child(-n+2) {
-    background: $yellow;
-  }
-
-  &--3 .stars__item:nth-child(-n+3) {
-    background: $yellow;
-  }
-
-  &--4 .stars__item:nth-child(-n+4) {
-    background: $yellow;
-  }
-
-  &--5 .stars__item:nth-child(-n+5) {
+  &--1 .stars__star:nth-child(1),
+  &--2 .stars__star:nth-child(-n+2),
+  &--3 .stars__star:nth-child(-n+3),
+  &--4 .stars__star:nth-child(-n+4),
+  &--5 .stars__star:nth-child(-n+5) {
     background: $yellow;
   }
 }
