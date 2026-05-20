@@ -7,10 +7,11 @@ body {
   margin: 0;
 
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 
   font-family: Inter, sans-serif;
-  background-color: $gray-light;
+
   height: 100vh;
+  background-color: $gray-light;
 }
