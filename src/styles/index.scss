@@ -1,6 +1,7 @@
-@import './variables';
-@import './card';
-@import './stars';
+@use './variables';
+@use './card';
+@use './stars';
+
 
 body {
   margin: 0;
