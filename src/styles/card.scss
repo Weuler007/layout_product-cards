@@ -23,7 +23,8 @@
   &__image {
     width: 160px;
     height: 134px;
-    background-image: url('../images/card.png'); // ✅ corrigido
+    background-image: url('../images/card.png');
+
     background-size: cover;
     background-position: center;
     border-radius: 6px;
