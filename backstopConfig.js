@@ -36,6 +36,10 @@ const config = {
       selectors: ['[data-qa="card"]'],
     },
   ],
+  // 👇 Adicione isso
+  engineOptions: {
+    executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe'
+  }
 };
 
 module.exports = config;

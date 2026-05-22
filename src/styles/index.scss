@@ -1,4 +1,4 @@
-@use './variables';
+@use './variables' as v;
 @use './card';
 @use './stars';
 
@@ -12,5 +12,5 @@ body {
 
   font-family: Inter, sans-serif;
 
-  background-color: $gray-light;
+  background-color: v.$gray-light; // ✔ agora funciona
 }

@@ -1,3 +1,6 @@
+// stars.scss
+@use 'variables' as v;
+
 .stars {
   display: flex;
   gap: 4px;
@@ -6,7 +9,7 @@
     width: 16px;
     height: 16px;
 
-    background: $gray-border;
+    background: v.$gray-border;
 
     -webkit-mask: url('../images/star-active.svg') no-repeat center / contain;
     mask: url('../images/star.svg') no-repeat center / contain;
