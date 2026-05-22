@@ -16,7 +16,7 @@
     justify-content: center;
 
     width: 134px;
-    height: 160px;
+    height: 150px;
     margin: 20px 33px;
     border: 1px solid v.$gray-border;
     border-radius: 5px;
@@ -26,10 +26,10 @@
 
   &__title {
     width: 220px;
-    margin-bottom: 12px;
+    padding: 10px;
 
     font-family: Inter, sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 600;
     line-height: 1.3;
     color: v.$main-accent;
@@ -46,6 +46,8 @@
   }
 
   &__code {
+    padding: 5px;
+
     font-family: Inter, sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -71,7 +73,7 @@
     justify-content: space-between;
 
     width: 166px;
-    padding: 0; // corrigido
+    padding: 2px; // corrigido
 
     font-size: 14px;
     font-weight: 600;
@@ -79,16 +81,17 @@
   }
 
   &__price-label {
+    padding: 10px;
     font-family: Inter, sans-serif;
     font-weight: 700;
-    color: #666;
+    color: rgba(97, 96, 112, 1);
   }
   &__link {
     display: block;
 
     width: calc(188px - 32px);
     margin: auto;
-    padding: 12px;
+    padding: 10px;
     border-radius: 5px;
 
     font-weight: 600;
@@ -101,7 +104,9 @@
     transition: background-color 0.3s;
 
     &:hover {
-      background-color: v.$main-accent;
+      color: v.$blue-accent;
+      background-color: v.$white;
+      border: 1px solid v.$blue-accent;
     }
   }
 }
