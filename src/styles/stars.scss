@@ -1,4 +1,3 @@
-// stars.scss
 @use 'variables' as v;
 
 .stars {
@@ -9,9 +8,13 @@
     width: 16px;
     height: 16px;
 
-    background: v.$gray-border;
+    background-color: v.$yellow;
 
-    -webkit-mask: url('../images/star-active.svg') no-repeat center / contain;
+    -webkit-mask: url('../images/star.svg') no-repeat center / contain;
     mask: url('../images/star.svg') no-repeat center / contain;
+  }
+
+  &--4 .stars__item:nth-child(n + 5) {
+    background-color: v.$gray-border;
   }
 }
