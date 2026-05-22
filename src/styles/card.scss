@@ -104,9 +104,9 @@
     transition: background-color 0.3s;
 
     &:hover {
+      border: 1px solid v.$blue-accent;
       color: v.$blue-accent;
       background-color: v.$white;
-      border: 1px solid v.$blue-accent;
     }
   }
 }
