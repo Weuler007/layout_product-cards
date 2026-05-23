@@ -2,9 +2,13 @@
   background-color: #fff;
   border: 1px solid #f3f3f3;
   border-radius: 8px;
-  width: 198px;
-  height: 406px;
+  width: 200px;
+  height: 450px;
   padding: 24px;
+  position: absolute;
+  top: 32px;
+  left: 19px;
+  right: 19px;
   box-shadow: 0 2px 4px #0000001a;
 }
 
@@ -15,15 +19,18 @@
   justify-content: center;
   align-items: center;
   width: 134px;
-  height: 150px;
-  margin: 20px 33px;
+  height: 160px;
+  margin: 20px 32px;
   display: flex;
 }
 
 .card__title {
   color: #060b35;
   word-wrap: break-word;
+  align-self: center;
   width: 220px;
+  margin-top: 40px;
+  margin-bottom: 4px;
   padding: 10px;
   font-family: Inter, sans-serif;
   font-size: 12px;
@@ -33,7 +40,6 @@
 
 .card__subtitle {
   color: #060b35;
-  margin-bottom: 12px;
   font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -41,23 +47,32 @@
 
 .card__code {
   color: #616070;
-  padding: 5px;
+  justify-items: center;
+  margin: 0 0 16px 10px;
   font-family: Inter, sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
+  display: flex;
 }
 
 .card__reviews {
-  align-items: center;
-  gap: 8px;
+  justify-content: space-between;
+  gap: 16px;
+  width: 175px;
+  height: 16px;
+  margin: 0 0 16px 10px;
   display: flex;
 }
 
 .card__reviews-text {
+  margin-top: 16px 24px;
   color: #060b35;
-  font-family: Inte, sans-serif;
+  text-align: flex-end;
+  align-self: flex-end;
+  font-family: Inter, sans-serif;
   font-size: 10px;
   font-weight: 400;
+  display: flex;
 }
 
 .card__price {
@@ -65,6 +80,7 @@
   justify-content: space-between;
   align-items: center;
   width: 166px;
+  margin-top: 16px;
   padding: 2px;
   font-size: 14px;
   font-weight: 600;
@@ -73,23 +89,27 @@
 
 .card__price-label {
   color: #616070;
-  padding: 10px;
+  border-radius: 0;
+  margin-bottom: 10px;
+  padding: 5px;
   font-family: Inter, sans-serif;
   font-weight: 700;
 }
 
 .card__link {
   color: #fff;
-  text-align: center;
   background-color: #00acdc;
   border-radius: 5px;
-  width: 156px;
-  margin: auto;
-  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 30px;
+  margin: 10px 0 16px 10px;
+  padding: 8px;
   font-weight: 600;
   text-decoration: none;
   transition: background-color .3s;
-  display: block;
+  display: flex;
 }
 
 .card__link:hover {
