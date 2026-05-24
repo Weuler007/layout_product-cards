@@ -29,8 +29,8 @@
 }
 
 .card__title {
-  text-align: center;
   color: #060b35;
+  text-align: center;
   word-wrap: break-word;
   justify-content: center;
   align-items: center;
