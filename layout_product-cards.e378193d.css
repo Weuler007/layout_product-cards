@@ -10,7 +10,7 @@
   margin: 0 auto;
   padding: 24px;
   display: flex;
-  position: absolute;
+  position: relative;
   top: 32px;
   left: 50px;
   box-shadow: 0 2px 4px #0000001a;
@@ -20,7 +20,6 @@
   background-color: #f3f3f3;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
-  justify-content: center;
   align-items: center;
   width: 160px;
   height: 134px;
@@ -32,13 +31,11 @@
   color: #060b35;
   text-align: center;
   word-wrap: break-word;
-  justify-content: center;
   align-items: center;
   width: 166px;
   height: 36px;
   margin: 40px auto 3px;
   padding: 0;
-  font-family: Roboto, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
@@ -51,7 +48,6 @@
   width: 98px;
   height: 14px;
   margin: 0 0 4px 17px;
-  font-family: Roboto, sans-serif;
   font-size: 10px;
   font-weight: 400;
   line-height: 14px;
@@ -64,7 +60,6 @@
   width: 166px;
   height: 16px;
   margin: 0 0 4px 17px;
-  font-family: Roboto, sans-serif;
   font-size: 10px;
   font-weight: 400;
   line-height: 14px;
@@ -78,7 +73,6 @@
   width: 166px;
   height: 16px;
   margin: 0 0 4px 17px;
-  font-family: Roboto, sans-serif;
   font-size: 10px;
   font-weight: 400;
   line-height: 14px;
@@ -90,7 +84,6 @@
   text-align: flex-end;
   align-self: flex-end;
   margin: 16px 24px;
-  font-family: Inter, sans-serif;
   font-size: 10px;
   font-weight: 400;
   display: flex;
@@ -112,7 +105,6 @@
   color: #616070;
   margin: 0 0 10px;
   padding: 5px;
-  font-family: Inter, sans-serif;
   font-weight: 700;
 }
 
