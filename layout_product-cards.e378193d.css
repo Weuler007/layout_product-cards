@@ -4,11 +4,10 @@
   border-radius: 8px;
   width: 200px;
   height: 450px;
+  margin: 0 auto;
   padding: 24px;
   position: absolute;
   top: 32px;
-  left: 19px;
-  right: 19px;
   box-shadow: 0 2px 4px #0000001a;
 }
 
@@ -20,7 +19,7 @@
   align-items: center;
   width: 160px;
   height: 134px;
-  margin: 20px 32px;
+  margin: 20px;
   display: flex;
 }
 
@@ -101,7 +100,8 @@
   color: #fff;
   letter-spacing: .5px;
   background-color: #00acdc;
-  border-radius: 5px;
+  border: 1px solid #f3f3f4;
+  border-radius: 8px;
   justify-content: center;
   align-items: center;
   width: 166px;
@@ -113,6 +113,7 @@
   text-decoration: none;
   transition: background-color .3s;
   display: flex;
+  box-shadow: 0 4px 8px #00000014;
 }
 
 .card__link:hover {
