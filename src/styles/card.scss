@@ -2,7 +2,7 @@
 
 .card {
   position: absolute;
-  top: 32px;
+  top: 30px;
 
   width: 200px;
   height: 450px;
@@ -21,7 +21,7 @@
 
     width: 160px;
     height: 134px;
-    margin: 20px;
+    margin: 18px auto 16px;
     border: 1px solid v.$gray-border;
     border-radius: 5px;
 
@@ -32,9 +32,8 @@
     align-self: center;
 
     width: 220px;
-    margin-top: 16px;
-    margin-bottom: 4px;
-    padding: 8px;
+    margin: 0;
+    padding: 18px;
 
     font-family: Inter, sans-serif;
     font-size: 12px;
@@ -55,7 +54,7 @@
     display: flex;
     justify-items: center;
 
-    margin: 0 16px 16px;
+    margin: 0 0 0 16px;
 
     font-family: Inter, sans-serif;
     font-size: 10px;
@@ -67,11 +66,11 @@
     display: flex;
     gap: 16px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
     width: 175px;
     height: 16px;
-    margin: 0 0 16px 10px;
+    margin: 0 0 6px 10px;
   }
 
   &__reviews-text {
@@ -93,16 +92,16 @@
     justify-content: space-between;
 
     width: 166px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin: 0 0 4px 10px;
     padding: 2px;
 
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     color: v.$main-accent;
   }
 
   &__price-label {
+    margin: 0;
     margin-bottom: 10px;
     padding: 5px;
 
@@ -117,12 +116,12 @@
     justify-content: center;
 
     width: 166px;
-    height: 36px;
-    margin: 16px 0 0 10px;
+    height: 26px;
+    margin: 14px 0 0 10px;
     margin-bottom: 16px;
     padding: 8px;
     border: 1px solid rgba(243, 243, 244, 1);
-    border-radius: 8px;
+    border-radius: 5px;
 
     font-size: 14px;
     font-weight: 600;
