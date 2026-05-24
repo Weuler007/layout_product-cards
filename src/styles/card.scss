@@ -112,26 +112,35 @@
     justify-content: center;
 
     width: 166px;
-    height: 24px;
+    height: 40px; // altura correta conforme Figma
     margin: 14px 0 16px 17px;
     border: 1px solid rgba(243, 243, 244, 1);
     border-radius: 5px;
 
-    font-size: 10px;
+    font-size: 14px; // tamanho da fonte ajustado
     font-weight: 600;
     color: v.$white;
     text-decoration: none;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.5px; // leve espaçamento entre letras
 
     background-color: v.$blue-accent;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
 
-    transition: background-color 0.3s;
+    transition:
+      background-color 0.3s,
+      color 0.3s,
+      border 0.3s;
 
     &:hover {
       border: 1px solid v.$blue-accent;
       color: v.$blue-accent;
       background-color: v.$white;
     }
+  }
+
+  &:hover {
+    border: 1px solid v.$blue-accent;
+    color: v.$blue-accent;
+    background-color: v.$white;
   }
 }
