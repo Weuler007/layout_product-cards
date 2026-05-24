@@ -3,6 +3,8 @@
 .stars {
   display: flex;
   gap: 4px;
+  align-items: center;
+  margin-left: 17px;
 
   &__item {
     width: 16px;
