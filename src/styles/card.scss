@@ -3,11 +3,10 @@
 .card {
   position: absolute;
   top: 32px;
-  right: 19px;
-  left: 19px;
 
   width: 200px;
   height: 450px;
+  margin: 0 auto;
   padding: 24px;
   border: 1px solid v.$gray-border;
   border-radius: 8px;
@@ -22,7 +21,7 @@
 
     width: 160px;
     height: 134px;
-    margin: 20px 32px;
+    margin: 20px;
     border: 1px solid v.$gray-border;
     border-radius: 5px;
 
@@ -122,7 +121,8 @@
     margin: 16px 0 0 10px;
     margin-bottom: 16px;
     padding: 8px;
-    border-radius: 5px;
+    border: 1px solid rgba(243, 243, 244, 1);
+    border-radius: 8px;
 
     font-size: 14px;
     font-weight: 600;
@@ -131,6 +131,7 @@
     letter-spacing: 0.5px;
 
     background-color: v.$blue-accent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
 
     transition: background-color 0.3s;
 
