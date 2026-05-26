@@ -1,6 +1,7 @@
 @use './variables' as v;
 
 .card {
+  position: absolute;
   top: 32px;
 
   display: flex;
@@ -38,28 +39,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     width: 166px;
     height: 34px;
     margin: 0 0 6px;
-
-    font-size: 11.1px;
-    font-weight: 600;
-    line-height: 19px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
     color: v.$main-accent;
     text-align: center;
-    word-wrap: break-word;
   }
 
   &__code {
-    display: flex;
+    display: block;
     align-items: center;
-
-    width: 170px;
+    justify-content: center; // Centralizado
+    width: 166px;
     height: 14px;
-    margin: 0 0 17px 6px;
-
-    font-size: 10px;
+    margin: 0 0 17px; // Margem lateral removida
+    font-size: 9px;
     font-weight: 400;
     line-height: 14px;
     color: v.$secondary;
@@ -67,15 +64,10 @@
 
   &__reviews {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-between; // Centralizado
+    gap: 4px; // Espaçamento entre estrelas e texto
     width: 166px;
-    height: 16px;
-    margin: 0 12px 20px 0;
-
     font-size: 9px;
-    font-weight: 400;
-    line-height: 14px;
     color: v.$secondary;
   }
 
@@ -83,16 +75,15 @@
     font-size: 9px;
     font-weight: 400;
     color: v.$main-accent;
+    margin-bottom: 15px;
   }
 
   &__price {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     width: 166px;
-    margin: 0 0 4px 9px;
-
+    margin: 0 0 14px; // Margem lateral removida
     font-size: 12px;
     font-weight: 600;
     line-height: 18px;
@@ -109,38 +100,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     width: 166px;
     height: 40px;
-    margin: 14px 0 16px 17px;
-    border: 1px solid rgba(243, 243, 244, 1);
+    margin: 0; // Margem lateral removida
+    border: 1px solid v.$blue-accent; // Borda fixa para evitar salto no hover
     border-radius: 5px;
-
     font-size: 14px;
     font-weight: 600;
     line-height: 18px;
     color: v.$white;
     text-decoration: none;
     letter-spacing: 0.5px;
-
     background-color: v.$blue-accent;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-
-    transition:
-      background-color 0.3s,
-      color 0.3s,
-      border 0.3s;
+    transition: all 0.3s ease;
 
     &:hover {
-      border: 1px solid v.$blue-accent;
-      color: v.$blue-accent;
       background-color: v.$white;
+      color: v.$blue-accent;
     }
   }
-
-  // &:hover {
-  //   border: 1px solid v.$blue-accent;
-  //   color: v.$blue-accent;
-  //   background-color: v.$white;
-  // }
 }
