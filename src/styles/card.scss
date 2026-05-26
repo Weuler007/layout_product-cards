@@ -10,7 +10,7 @@
   box-sizing: border-box;
   width: 200px;
   height: 408px;
-  margin: 0 auto;
+  margin: auto;
   padding: 23px;
   border: 1px solid v.$gray-border;
   border-radius: 8px;
@@ -25,7 +25,7 @@
     align-items: center;
     justify-content: center;
 
-    width: 159px;
+    width: 149px;
     height: 134px;
     margin: 8px auto 40px;
     border: 1px solid v.$gray-border;
@@ -41,11 +41,11 @@
 
     width: 166px;
     height: 35px;
-    margin: 0 0 6px;
+    margin: 0 6px 6px;
 
-    font-size: 11px;
-    font-weight: 600;
-    line-height: 19px;
+    font-size: 11.7px;
+    font-weight: 500;
+    line-height: 18px;
     color: v.$main-accent;
     text-align: center;
     word-wrap: break-word;
@@ -95,14 +95,14 @@
     width: 166px;
     margin: 0 0 4px 9px;
 
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
     color: v.$main-accent;
   }
 
   &__price-label {
     margin: 0;
-    font-weight: 700;
+    font-weight: 500;
     color: rgba(97, 96, 112, 1);
   }
 
