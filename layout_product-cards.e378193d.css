@@ -1,5 +1,6 @@
 .card {
   box-sizing: border-box;
+  font-display: swap;
   background-color: #fff;
   border: 1px solid #f3f3f3;
   border-radius: 8px;
@@ -9,7 +10,7 @@
   height: 408px;
   margin: 32px auto;
   padding: 23px;
-  font-family: Roboto, sans-serif;
+  font-family: roboto, sans-serif;
   display: flex;
   box-shadow: 0 2px 4px #0000001a;
 }
@@ -41,8 +42,8 @@
   color: #616070;
   text-align: left;
   width: 166px;
-  margin: 0 auto 19px -8px;
-  font-size: 9px;
+  margin: 1px auto 19px -7px;
+  font-size: 10px;
   font-weight: 400;
   line-height: 14px;
 }
@@ -52,15 +53,17 @@
   justify-content: space-between;
   align-items: center;
   width: 166px;
-  margin: 0 auto 20px -8px;
-  font-size: 9px;
+  margin: 2px auto 20px -8px;
+  font-size: 10px;
   display: flex;
 }
 
 .card__reviews-text {
   color: #060b35;
-  margin-bottom: 0;
-  font-size: 9px;
+  margin-top: -5px;
+  margin-bottom: -1px;
+  margin-right: -1px;
+  font-size: 10px;
   font-weight: 400;
 }
 
@@ -69,8 +72,8 @@
   justify-content: space-between;
   align-items: center;
   width: 166px;
-  margin: 0 auto 10px -8px;
-  font-size: 17px;
+  margin: 2px -4px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 19px;
   display: flex;
@@ -78,9 +81,9 @@
 
 .card__price-label {
   color: #616070;
-  margin: 0;
+  margin: 3px 0 0;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .card__link {
@@ -110,16 +113,18 @@
 
 .stars {
   align-items: center;
-  gap: 4px;
-  height: 16px;
-  margin-left: 0;
+  height: 14px;
+  margin-top: -4px;
+  margin-bottom: 0;
+  margin-left: -1px;
   display: flex;
 }
 
 .stars__item {
   background-color: #ffde6a;
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 12px;
+  margin: 2px;
   mask: url("star.fa806e3c.svg") center / contain no-repeat;
 }
 
@@ -133,7 +138,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  font-family: Inter, sans-serif;
+  font-family: Roboto, sans-serif;
   display: flex;
 }
 /*# sourceMappingURL=layout_product-cards.e378193d.css.map */
