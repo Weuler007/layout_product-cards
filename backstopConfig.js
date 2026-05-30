@@ -37,9 +37,7 @@ const config = {
     },
   ],
   // 👇 Adicione isso
-  engineOptions: {
-    executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe'
-  }
-};
+
+  };
 
 module.exports = config;
